@@ -5,3 +5,5 @@
 * `npm run web` - Run the frontend app for web.
 * `npm run ios` - Run the frontend app for iOS Emulators.
 * `npm run android` - Run the frontend app for Android Simulators.
+
+<img width="50" src="https://mirrors.creativecommons.org/presskit/icons/cc.xlarge.png"/>
