@@ -1,0 +1,17 @@
+blank_issues_enabled: false
+contact_links:
+  - name: React Native Documentation
+    url: https://reactnative.dev/docs/getting-started
+    about: For a question about React Native, please vist this first.
+  - name: TypeScript Documentation
+    url: https://www.typescriptlang.org/docs/
+    about: For a question about TypeScript, please visit this first.
+  - name: RxJS Documentation
+    url: https://rxjs-dev.firebaseapp.com/guide/overview
+    about: For a question about RxJS, please visit this first.
+  - name: Redux Documentation
+    url: https://redux.js.org/introduction/getting-started
+    about: For a question about Redux, please visit this first.
+  - name: GitHub Security Bug Bounty
+    url: https://bounty.github.com/
+    about: Please report security vulnerabilities here.
