@@ -1,0 +1,72 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-eslint-rules",
+        "tslint-react"
+    ],
+    "jsRules": {},
+    "rules": {
+        "one-variable-per-declaration": true,
+        "no-duplicate-imports": true,
+        "quotemark": [
+            true,
+            "single"
+        ],
+        "semicolon": [
+            true,
+            "always"
+        ],
+        "no-consecutive-blank-lines": [
+            true,
+            1
+        ],
+        "comment-format": [
+            true,
+            "check-space"
+        ],
+        "no-constant-condition": true,
+        "curly": [
+            true,
+            "ignore-same-line"
+        ],
+        "object-shorthand": [
+            "error",
+            "always"
+        ],
+        "trailing-comma": false,
+        "ordered-imports": false,
+        "no-var-requires": false,
+        "no-unused-expression": false,
+        "arrow-parens": false,
+        "prefer-const": false,
+        "variable-name": false,
+        "object-literal-sort-keys": false,
+        "eofline": false,
+        "no-var-keyword": false,
+        "no-shadowed-variable": false,
+        "no-empty": false,
+        "radix": false,
+        "only-arrow-functions": false,
+        "no-conditional-assignment": false,
+        "forin": false,
+        "no-bitwise": false,
+        "interface-name": false,
+        "array-type": false,
+        "jsx-no-multiline-js": false,
+        "space-before-function-paren": false,
+        "no-empty-interface": false,
+        "class-name": false,
+        "jsx-curly-spacing": false,
+        "jsx-wrap-multiline": false,
+        "ter-indent": false,
+        "no-console": false,
+        "jsx-no-lambda": false,
+        "object-literal-shorthand": false,
+        "jsx-alignment": false,
+        "object-literal-key-quotes": false,
+        "ban-types": false,
+        "no-debugger": false
+    },
+    "rulesDirectory": []
+}

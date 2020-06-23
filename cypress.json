@@ -1,0 +1,7 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "ignoreTestFiles": "**/examples/*.spec.js",
+  "requestTimeout": 10000,
+  "watchForFileChanges": true,
+  "supportFile": "cypress/support/commands.ts"
+}
