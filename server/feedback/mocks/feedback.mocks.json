@@ -1,0 +1,12 @@
+[
+    {
+        "_id": "5e8df626c1e53b2b5dd2026e",
+        "message": "Hello world",
+        "sentBy": "gabis"
+    },
+    {
+        "_id": "5e8df795cc7c1b2b9024d78f",
+        "message": "I dunno",
+        "sentBy": "SpaceInstructor"
+    }
+]

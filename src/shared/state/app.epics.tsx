@@ -1,4 +1,5 @@
 import * as exampleEpics from '../../example/state/example.epics';
+import * as feedbackEpics from '../../feedback/state/feedback.epics';
 import { AppState } from '../interfaces/app-state';
 import { Action } from '../interfaces/shared';
 import { combineEpics, Epic } from 'redux-observable';
@@ -6,6 +7,7 @@ import { combineEpics, Epic } from 'redux-observable';
 /** Use alphabetic sorting */
 export const appEpics: Epic<Action<AppState>, any> = combineEpics(
     ...getEpicsArr(exampleEpics),
+    ...getEpicsArr(feedbackEpics),
 );
 
 /** Converting from import object to array. */

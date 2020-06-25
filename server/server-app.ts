@@ -7,6 +7,7 @@ import * as cors from 'cors';
 import * as express from 'express';
 import { Server } from 'http';
 import * as mongoose from 'mongoose';
+import { Feedback } from './feedback/feedback';
 
 // Compiler and app
 let app: express.Express = express();
@@ -18,6 +19,7 @@ export class ServerApp {
     // Modules
     public example: Example;
     public shared: Shared;
+    public feedback: Feedback;
 
     constructor() {
         this.setupBodyParser();
@@ -40,6 +42,7 @@ export class ServerApp {
     private initModules(): void {
         this.shared = new Shared(app);
         this.example = new Example(app);
+        this.feedback = new Feedback(app);
     }
 
     /** Connect to the mongo database */

@@ -1,5 +1,5 @@
 export interface ExampleArrayItem {
-    id: string;
+    _id: string;
     username: string;
     email: string;
 }

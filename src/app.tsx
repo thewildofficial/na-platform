@@ -7,6 +7,7 @@ import { Provider } from 'react-redux';
 import { RouteComponentProps, withRouter } from 'react-router';
 import { PersistGate } from 'redux-persist/es/integration/react';
 import { Subject } from 'rxjs';
+import { FeedbackPage } from './feedback/pages/feedback.page';
 
 // We use SafeAreaView for phone like iPhone X build EStyleSheet in order to calculate styles.
 interface Props extends RouteComponentProps {}
@@ -39,6 +40,7 @@ export class App extends React.Component<Props, State> {
 
                             <Switch>
                                 <Route exact={true} path='/' render={props => <ExamplePage {...props} />} />
+                                <Route exact={true} path='/feedback' render={props => <FeedbackPage {...props} />} />
                             </Switch>
                         </div.ScrollContent>
                     </div.AppSafeArea>

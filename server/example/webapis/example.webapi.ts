@@ -1,18 +1,15 @@
 import { ExampleObject } from '../interfaces/example';
 import { Router } from 'express';
+import { ExampleModel } from '../models/example.model';
 
 export const ExampleWebApi = Router();
 
-ExampleWebApi.get('/array', (_req, res) => {
-    const someExamples: ExampleObject[] = [{
-        id: '1',
-        username: 'john',
-        email: 'john@gmail.com'
-    }, {
-        id: '2',
-        username: 'chuck',
-        email: 'chuck@gmail.com'
-    }];
+ExampleWebApi.get('/array', async (_req, res) => {
+    try {
+        let examples = await ExampleModel.find({});
 
-    res.send(someExamples);
+        res.send(examples);
+    } catch (err) {
+        res.status(500).send(err);
+    }
 });

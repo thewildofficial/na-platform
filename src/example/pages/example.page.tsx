@@ -32,7 +32,7 @@ class _ExamplePage extends React.Component<Props, State> {
                 <View>
                     {
                         !!exampleArr.length &&
-                        exampleArr.map(example => <Text key={example.id}> {example.email} </Text>)
+                        exampleArr.map(example => <Text key={example._id}> {example.email} </Text>)
                     }
                 </View>
             </View>
