@@ -1,4 +1,4 @@
-package com.nexusauroraplatformnextgen;
+package com.nexusauroraplatform;
 
 import android.app.Application;
 import android.content.Context;
